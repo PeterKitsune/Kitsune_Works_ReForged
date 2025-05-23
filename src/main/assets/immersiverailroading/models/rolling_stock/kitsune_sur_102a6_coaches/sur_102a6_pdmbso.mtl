@@ -1,4 +1,4 @@
-# Blender 3.6.5 MTL File: 'sur_102a6_dmbso.blend'
+# Blender 3.6.5 MTL File: 'sur_102a6_pdmbso.blend'
 # www.blender.org
 
 newmtl Base
@@ -61,15 +61,15 @@ illum 2
 map_Kd diesel_cab.png
 map_d diesel_cab.png
 
-newmtl Lamps
+newmtl Panto
 Ns 1000.000000
 Ka 1.000000 1.000000 1.000000
 Ks 0.000000 0.000000 0.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 illum 1
-map_Kd lamp.png
-map_d lamp.png
+map_Kd panto.png
+map_d panto.png
 
 newmtl Seat
 Ns 1000.000000
