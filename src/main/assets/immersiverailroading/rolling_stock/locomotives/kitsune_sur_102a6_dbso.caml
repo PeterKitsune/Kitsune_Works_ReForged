@@ -1,0 +1,24 @@
+import: "immersiverailroading:rolling_stock/_kitsune_default/sur_102a6.caml"
+
+era = diesel
+
+name = "Syldel Union of Railways '102a6 stock' DBSO"
+
+model = "immersiverailroading:models/rolling_stock/kitsune_sur_102a6_coaches/sur_102a6_dbso.obj"
+
+extra_tooltip_info: "Code: SUR_102_DBSO"
+extra_tooltip_info: "Driving Brake Second Open"
+
+passenger =
+	slots =   9
+
+properties =
+	cabcar = true
+	max_speed_kmh = 60
+	independent_brake = True
+	linear_brake_control = False
+
+sounds =
+	horn = "immersiverailroading:sounds/kitsune_reforged/subway_whistle.ogg"
+	bell = "immersiverailroading:sounds/kitsune_reforged/silent.ogg"
+	idle = "immersiverailroading:sounds/kitsune_reforged/silent.ogg"
