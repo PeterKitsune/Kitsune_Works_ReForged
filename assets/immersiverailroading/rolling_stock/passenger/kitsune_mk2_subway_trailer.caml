@@ -1,0 +1,7 @@
+import : "immersiverailroading:rolling_stock/_kitsune_default/mk2_subway.caml"
+
+name = Kitsune Mk2 Subway (Trailer Car)
+
+model = "immersiverailroading:models/rolling_stock/passenger/kitsune_mk2_coach/kitsune_mk2_subway_trailer.obj"
+
+extra_tooltip_info : "Code: MC2-S2"

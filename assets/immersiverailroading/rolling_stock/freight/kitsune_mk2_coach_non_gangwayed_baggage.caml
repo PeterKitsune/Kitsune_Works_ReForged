@@ -1,0 +1,13 @@
+import: "immersiverailroading:rolling_stock/_kitsune_default/mk2.caml"
+
+name = "Kitsune Mk2 non-gangway baggage"
+
+model = "immersiverailroading:models/rolling_stock/passenger/kitsune_mk2_coach/kitsune_mk2_coach_baggage.obj"
+
+extra_tooltip_info = "Code: MC2-B"
+
+freight =
+    slots = 45
+    width = 9
+    cargo: Any
+    show_current_load_only = False

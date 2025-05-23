@@ -1,0 +1,31 @@
+import : "immersiverailroading:rolling_stock/_kitsune_default/mk2_subway.caml"
+
+era = diesel
+
+name = Kitsune Mk2 'Subway' rear passenger driving motor
+
+model = "immersiverailroading:models/rolling_stock/passenger/kitsune_mk2_coach/kitsune_mk2_subway_rear.obj"
+
+extra_tooltip_info : MC2S3
+extra_tooltip_info : If using IR Patches, use ethanol or lava as a fuel
+
+couplers =
+	rear_offset = -0.125
+	rear_slack =   0.03125
+
+properties =
+	fuel: "ethanol"
+	fuel: "lava:100"
+	fuel_efficiency_% = 400
+	fuel_capacity_l = 2000
+	horsepower = 150
+	tractive_effort_lbf = 3621
+	max_speed_kmh = 40
+
+passenger =
+	slots = 13
+
+sounds =
+	horn = "immersiverailroading:sounds/kitsune_reforged/subway_whistle.ogg"
+	bell = "immersiverailroading:sounds/kitsune_reforged/silent.ogg"
+	idle = "immersiverailroading:sounds/kitsune_reforged/motor.ogg"

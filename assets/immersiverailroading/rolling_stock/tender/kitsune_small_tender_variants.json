@@ -1,0 +1,23 @@
+{
+	"Green"									: "",
+	"Crimson Lake"							: "crimson_lake",
+	"Apple Green"							: "apple_green",
+	"Malachite Green"						: "malachite_green",
+	"Blue"									: "bloo",
+	"Black"									: "black",
+	"Black (Gold Lining)"					: "black_gold",
+	"Khaki"									: "khaki",
+	"Grey"									: "grey",
+	"War Department (Khaki)"				: "wd_khaki",
+	"War Department (Grey)"					: "wd_grey",
+	"Rheilffordd Eryri Newydd"				: "rfen",
+	"Chorezm Gov'ment Railways"				: "cgr",
+	"Chorezm Gov'ment Railways - Late"		: "cgr_late",
+	"Sullian Railway"						: "sullia",
+	"Ashford & Cogsfell Railroad"			: "acrr",
+	"Silver Plate Road"						: "silver_plate_road",
+	"Akita, Torina, & Sankta Pearla"		: "sankta_pearla",
+	"Mackawanie Railroad"					: "mackawanie",
+	"Devana & White River Western"			: "white_river",
+	"Ashford & Grindean Light Railway"		: "aglr"
+}

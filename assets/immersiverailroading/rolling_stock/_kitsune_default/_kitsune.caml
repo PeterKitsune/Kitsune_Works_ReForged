@@ -1,0 +1,43 @@
+name = mr idiot forgot to set a name
+
+works = Kitsune Locomotive Works
+
+modeler = Peter Kitsune
+
+darken_model = -0.05
+
+properties =
+	interior_light_level = 0
+	brake_friction_coefficient = 0.7
+	dynamic_traction_control = True
+	throttle_notches = 5
+	
+passenger =
+	should_sit = False
+
+sounds =
+	controls =
+		INDEPENDENT_BRAKE_1 =
+			engage = "immersiverailroading:sounds/default/lever_engage.ogg"
+			move = "immersiverailroading:sounds/kitsune_reforged/silent.ogg"
+			disengage = "immersiverailroading:sounds/default/lever_disengage.ogg"
+		THROTTLE_BRAKE_1 =
+			engage = "immersiverailroading:sounds/default/lever_engage.ogg"
+			move = "immersiverailroading:sounds/default/lever_move.ogg"
+			movePercent = 0.1
+			disengage = "immersiverailroading:sounds/default/lever_disengage.ogg"
+		THROTTLE_BRAKE_2 =
+			engage = "immersiverailroading:sounds/default/lever_engage.ogg"
+			move = "immersiverailroading:sounds/default/lever_move.ogg"
+			movePercent = 0.1
+			disengage = "immersiverailroading:sounds/default/lever_disengage.ogg"
+		THROTTLE_1 = 
+			engage = "immersiverailroading:sounds/default/lever_engage.ogg"
+			move = "immersiverailroading:sounds/kitsune_reforged/silent.ogg"
+			movePercent = 0.2
+			disengage = "immersiverailroading:sounds/default/lever_disengage.ogg"
+		THROTTLE_2 = 
+			engage = "immersiverailroading:sounds/default/lever_engage.ogg"
+			move = "immersiverailroading:sounds/kitsune_reforged/silent.ogg"
+			movePercent = 0.2
+			disengage = "immersiverailroading:sounds/default/lever_disengage.ogg"

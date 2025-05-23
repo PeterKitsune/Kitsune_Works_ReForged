@@ -1,0 +1,11 @@
+import: "immersiverailroading:rolling_stock/_kitsune_default/sur_102a6.caml"
+
+name = "Syldel Union of Railways '102a6 stock' FO"
+
+model = "immersiverailroading:models/rolling_stock/kitsune_sur_102a6_coaches/sur_102a6_fo.obj"
+
+extra_tooltip_info : "Code: SUR_102_FO"
+extra_tooltip_info : "First Open"
+
+passenger =
+	slots =   12

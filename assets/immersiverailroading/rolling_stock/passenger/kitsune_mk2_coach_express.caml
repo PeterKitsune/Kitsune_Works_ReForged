@@ -1,0 +1,7 @@
+import: "immersiverailroading:rolling_stock/_kitsune_default/mk2.caml"
+
+name = "Kitsune Mk2 express coach"
+
+model = "immersiverailroading:models/rolling_stock/passenger/kitsune_mk2_coach/kitsune_mk2_coach_express.obj"
+
+extra_tooltip_info = "Code: MC2-X1"

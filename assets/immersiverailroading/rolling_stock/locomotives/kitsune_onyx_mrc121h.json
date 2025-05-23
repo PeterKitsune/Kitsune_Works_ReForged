@@ -1,0 +1,56 @@
+{
+	"name":    "Onyx Hypertrain [minecraft gauge]",
+	"modeler": "Peter Kitsune",
+	"model":   "immersiverailroading:models/rolling_stock/kitsune_onyx_hypertrain/onyx_hypertrain.obj",
+	"era":     "diesel",
+	"works":   "[Redacted]",
+	"extra_tooltip_info": [
+		"If using IR Patches, use molten diamond as a fuel (Nuclearcraft)."
+	],
+	"darken_model":                 -0.05,
+	"model_gauge_m":                 0.632,
+	"properties": {
+		"fuel": ["diamond:5"],
+		"swayMultiplier":            0,
+		"tiltMultiplier":            0,
+		"fuel_efficiency_%":        25,
+		"fuel_capacity_l":       16000,
+		"horsepower":            10000,
+		"tractive_effort_lbf":  100000,
+		"max_speed_kmh":           200,
+		"weight_kg":             75000,
+		"interior_light_level":      0,
+		"brake_friction_coefficient":5,	
+		"dynamic_traction_control":true,
+		"horn_sustained":          false,
+		"throttle_notches":          5
+	},
+	"passenger": {
+		"slots":                     3,
+		"center_x":                  0,
+		"center_y":                  1,
+		"length":                    1,
+		"width":                     1,
+		"should_sit":              false
+	},
+	"pivot": {
+		"front":                     1.5625,
+		"rear":                     -1.5625
+	},
+	"couplers": {
+		"front_offset":              1,
+		"front_slack":               0.125,
+		"rear_offset":               1,
+		"rear_slack":                0.125
+	},
+	"sounds": {
+		"horn":      "sounds/steam/default/bell.ogg",
+		"bell":      "sounds/kitsune_reforged/cyber_engine.ogg",
+		"idle":      "sounds/kitsune_reforged/motor.ogg",
+		"wheels":    "sounds/kitsune_reforged/silent.ogg",
+		"clack":     "sounds/kitsune_reforged/silent.ogg",
+		"flange":    "sounds/kitsune_reforged/silent.ogg",
+		"collision": "sounds/kitsune_reforged/silent.ogg",
+		"sliding":   "sounds/kitsune_reforged/silent.ogg"
+	}
+}

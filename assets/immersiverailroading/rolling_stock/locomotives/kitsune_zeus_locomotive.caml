@@ -1,0 +1,43 @@
+import : "immersiverailroading:rolling_stock/_kitsune_default/2ft.caml"
+
+era = "diesel"
+
+name = "Kitsune 'Zeus' locomotive"
+
+model = "immersiverailroading:models/rolling_stock/locomotives/kitsune_zeus_locomotive/kitsune_zeus_locomotive.obj"
+
+extra_tooltip_info: "Code: MLE66"
+extra_tooltip_info: If using IR Patches, use ethanol or lava as a fuel
+
+properties =
+	fuel: "ethanol"
+	fuel: "lava:100"
+	fuel_efficiency_% = 400
+	fuel_capacity_l = 2000
+	horsepower = 1500
+	tractive_effort_lbf = 32000
+	weight_kg = 50000
+	max_speed_kmh = 75
+	horn_sustained = False
+
+animations :
+	readout = engine
+	animatrix = "immersiverailroading:models/rolling_stock/locomotives/kitsune_zeus_locomotive/zeus_panto.anim"
+	mode = value
+
+passenger =
+	slots = 2
+	center_x = 0
+	center_y = 1.375
+	length = 5.1875
+	width = 2.0
+	should_sit = False
+
+pivot =
+	front = 2.5
+	rear = -2.5
+
+sounds =
+	horn = "sounds/kitsune_reforged/vulcan_horn.ogg"
+	idle = "sounds/kitsune_reforged/motor.ogg"
+	bell = "sounds/kitsune_reforged/silent.ogg"

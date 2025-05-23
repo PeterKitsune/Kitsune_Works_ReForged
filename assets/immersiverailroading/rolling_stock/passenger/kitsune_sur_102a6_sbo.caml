@@ -1,0 +1,15 @@
+import: "immersiverailroading:rolling_stock/_kitsune_default/sur_102a6.caml"
+
+name = "Syldel Union of Railways '102a6 stock' BSO"
+
+model = "immersiverailroading:models/rolling_stock/kitsune_sur_102a6_coaches/sur_102a6_bso.obj"
+
+extra_tooltip_info : "Code: SUR_102_BSO"
+extra_tooltip_info : "Brake Second Open"
+
+passenger =
+	slots =   10
+
+properties =
+	independent_brake = True
+	linear_brake_control = False

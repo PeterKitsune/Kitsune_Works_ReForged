@@ -1,0 +1,39 @@
+import: "immersiverailroading:rolling_stock/_kitsune_default/mk2.caml"
+
+era = "diesel"
+
+name = "Kitsune 'Vulcan' express locomotive B-unit"
+
+model = "immersiverailroading:models/rolling_stock/passenger/kitsune_mk2_coach/kitsune_vulcan_b_express_locomotive.obj"
+
+extra_tooltip_info: Code: MLD66-XB
+extra_tooltip_info: If using IR Patches, use diesel, biodiesel, or lava as a fuel
+
+properties =
+    fuel: "diesel"
+    fuel: "biodiesel"
+    fuel: "lava:100"
+    fuel_efficiency_% = 69
+    fuel_capacity_l = 16000
+    horsepower = 1500
+    tractive_effort_lbf = 32000
+    weight_kg = 50000
+    max_speed_kmh = 100
+    horn_sustained = False
+
+passenger =
+    slots = 1
+
+pivot =
+    front = 2.59375
+    rear = -2.59375
+
+couplers =
+    front_offset = -0.1875
+    front_slack = 0.03125
+    rear_offset = -0.1875
+    rear_slack = 0.03125
+
+sounds =
+    horn = "sounds/kitsune_reforged/silent.ogg"
+    bell = "sounds/kitsune_reforged/silent.ogg"

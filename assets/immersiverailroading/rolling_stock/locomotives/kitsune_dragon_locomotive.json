@@ -1,0 +1,57 @@
+{
+	"era": "steam",
+	"name": "Kitsune 'Dragon' freight locomotive",
+	"works": "Kitsune Locomotive Works",
+	"modeler": "Peter Kitsune",
+	"model": "immersiverailroading:models/rolling_stock/locomotives/kitsune_dragon_locomotive/kitsune_dragon_locomotive.obj",
+	"darken_model": "-0.05",
+	"model_gauge_m": 0.632,
+	"extra_tooltip_info":["Code: MLS8-ET"],
+	"properties": {
+		"max_psi": 200,
+		"water_capacity_l": 4000,
+		"horsepower": 1700,
+		"tractive_effort_lbf": 20000,
+		"max_speed_kmh": 50,
+		"valve_gear": "stephenson",
+		"weight_kg": 29000,
+		"interior_light_level":0.0,
+		"brake_friction_coefficient":0.7,
+		"linear_brake_control":false
+	},
+	"firebox": {
+		"slots": 6,
+		"width": 6
+	},
+	"passenger": {
+		"slots": 2,
+		"center_x": -3.59375,
+		"center_y": 0.9375,
+		"length": 0.4375,
+		"width": 0.8125,
+		"should_sit": false
+	},
+	"pivot": {
+		"front": 2,
+		"rear": -1.1875
+	},
+	"couplers": {
+		"front_offset": -0.125,
+		"front_slack":   0.03125,
+		"rear_offset":   0.0625,
+		"rear_slack":    0.03125
+	},
+	"sounds": {
+		"quilling": [
+			{
+				"pull_start": 0,
+				"pull_end": 1,
+				"pitch_start": 0.9,
+				"pitch_end": 1,
+				"sample": "sounds/steam/k4_sounds/whistle.ogg"
+			}
+		],
+		"idle": "sounds/steam/k4_sounds/idle.ogg",
+		"chuff": "sounds/steam/k4_sounds/chuff.ogg"
+	}
+}

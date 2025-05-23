@@ -1,0 +1,15 @@
+import : "immersiverailroading:rolling_stock/_kitsune_default/2ft.caml"
+
+properties =
+	weight_kg = 15000
+
+passenger =
+	center_x = 0
+	center_y = 1
+	length = 4.0
+	width = 2.0
+	slots = 12
+
+pivot =
+	front = 3.125
+	rear = -3.125

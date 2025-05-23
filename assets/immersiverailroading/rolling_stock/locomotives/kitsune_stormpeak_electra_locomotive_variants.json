@@ -1,0 +1,18 @@
+{
+	"Green"								: "",
+	"Blue"								: "bloo",
+	"Maroon"							: "maroon",
+	"Black"								: "black",
+	"Black (Gold Lining)"				: "black_gold",
+	"Blue & White"						: "bloo_white",
+	"P-Way Yellow"						: "p_way_yellow",
+	"P-Way Yellow & Grey"				: "p_way_yellow_grey",
+	"Yellow"							: "yellow",
+	"Yellow & Grey"						: "yellow_grey",
+	"Chorezm Gov'ment Railways"			: "cgr",
+	"Sullian Railway (Sullian Green)"	: "sullia",
+	"Rheilffordd Eryri Newydd"			: "rfen",
+	"Ashford & Cogsfell Railroad"		: "acrr",
+	"Mail"								: "mail",
+	"Sullian Mail"						: "sullian_mail"
+}

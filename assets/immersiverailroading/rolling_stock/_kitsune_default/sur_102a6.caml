@@ -1,0 +1,22 @@
+import : "immersiverailroading:rolling_stock/_kitsune_default/2ft.caml"
+
+works = "Various (Design: Syldel Union of Railways)"
+
+properties =
+	weight_kg = 10000
+
+passenger =
+	center_x = 0
+	center_y = 0.84375
+	length =   4.5
+	width =    1.0
+
+pivot =
+	front = 3.78125
+	rear = -3.78125
+
+couplers =
+	front_offset = -0.21875
+	front_slack  =  0.03125
+	rear_offset  = -0.21875
+	rear_slack   =  0.03125

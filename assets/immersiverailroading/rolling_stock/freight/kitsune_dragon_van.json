@@ -1,0 +1,37 @@
+{
+    "name": "Kitsune Mk1 double baggage van",
+    "modeler": "Peter Kitsune",
+    "model": "immersiverailroading:models/rolling_stock/passenger/kitsune_stormpeak_coach/kitsune_dragon_cct.obj",
+	"darken_model": "-0.05",
+	"model_gauge_m": 0.632,
+	"extra_tooltip_info":["Code: MC1-B2"],
+	"properties": {
+		"weight_kg": 10000,
+		"interior_light_level":0,
+		"brake_friction_coefficient":1.0
+	},
+	"passenger": {
+		"slots": 5,
+		"center_x": 0,
+		"center_y": 1,
+		"length": 5.0,
+		"width": 1.0,
+		"should_sit":false
+	},
+	"freight": {
+		"slots": 54,
+		"width": 9,
+		"cargo": ["Any"],
+		"show_current_load_only": false
+	},
+	"pivot": {
+		"front": 4.25,
+		"rear": -4.25
+	},
+	"couplers": {
+		"front_offset": -0.125,
+		"front_slack":   0.03125,
+		"rear_offset":  -0.125,
+		"rear_slack":    0.03125
+	}
+}

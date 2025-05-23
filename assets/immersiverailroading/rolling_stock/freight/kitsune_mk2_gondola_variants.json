@@ -1,0 +1,20 @@
+{
+	"Grey Coal": "",
+	"Grey Gravel": "grey_gravel",
+	"Brown Coal": "brown_coal",
+	"Brown Gravel": "brown_gravel",
+	"Bauxite Coal": "bauxite_coal",
+	"Bauxite Gravel": "bauxite_gravel",
+	"Black Coal": "black_coal",
+	"Black Gravel": "black_gravel",
+	"White Coal": "white_coal",
+	"White Gravel": "white_gravel",
+	"RfEN Coal": "rfen_coal",
+	"RfEN Gravel": "rfen_gravel",
+	"ARRJC Coal": "arrjc_coal",
+	"ARRJC Gravel": "arrjc_gravel",
+	"CGR Black Coal": "cgr_coal",
+	"CGR Black Gravel": "cgr_gravel",
+	"CGR White Coal": "cgr_white_coal",
+	"CGR White Gravel": "cgr_white_gravel"
+}
