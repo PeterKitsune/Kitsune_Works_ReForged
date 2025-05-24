@@ -5,3 +5,6 @@ name = "Kitsune Mk2 express observation coach"
 model = "immersiverailroading:models/rolling_stock/passenger/kitsune_mk2_coach/kitsune_mk2_coach_express_tail.obj"
 
 extra_tooltip_info = "Code: MC2-X2"
+
+couplers =
+	front_offset = -0.171875

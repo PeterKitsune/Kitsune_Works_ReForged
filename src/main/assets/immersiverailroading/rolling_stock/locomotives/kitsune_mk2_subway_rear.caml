@@ -10,8 +10,7 @@ extra_tooltip_info : MC2S3
 extra_tooltip_info : If using IR Patches, use ethanol or lava as a fuel
 
 couplers =
-	rear_offset = -0.125
-	rear_slack =   0.03125
+	rear_slack = 0.015625
 
 properties =
 	fuel: "ethanol"

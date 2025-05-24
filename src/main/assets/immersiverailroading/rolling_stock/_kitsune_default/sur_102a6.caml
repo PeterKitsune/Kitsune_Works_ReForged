@@ -16,7 +16,5 @@ pivot =
 	rear = -3.78125
 
 couplers =
-	front_offset = -0.21875
-	front_slack  =  0.03125
-	rear_offset  = -0.21875
-	rear_slack   =  0.03125
+	front_offset = -0.171875
+	rear_offset  = -0.171875

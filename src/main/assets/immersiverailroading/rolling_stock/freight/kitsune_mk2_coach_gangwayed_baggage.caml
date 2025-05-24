@@ -11,3 +11,7 @@ freight =
     width = 9
     cargo: Any
     show_current_load_only = False
+
+couplers =
+	front_offset = -0.171875
+	rear_offset  = -0.171875

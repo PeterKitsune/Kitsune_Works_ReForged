@@ -33,8 +33,7 @@ trucks =
     rear = -2.59375
 
 couplers =
-    rear_offset = -0.1875
-    rear_slack = 0.03125
+	rear_offset  = -0.171875
 
 sounds =
     horn = "sounds/kitsune_reforged/vulcan_horn.ogg"
