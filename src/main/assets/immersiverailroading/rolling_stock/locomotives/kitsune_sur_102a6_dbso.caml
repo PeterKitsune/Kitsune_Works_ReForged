@@ -13,7 +13,7 @@ passenger =
 	slots =   9
 
 properties =
-	cabcar = true
+	cab_car = true
 	max_speed_kmh = 60
 	independent_brake = True
 	linear_brake_control = False
