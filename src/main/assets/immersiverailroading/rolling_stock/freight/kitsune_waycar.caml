@@ -1,12 +1,22 @@
 import : "immersiverailroading:rolling_stock/_kitsune_default/2ft.caml"
+
 name = "Kitsune Matchtruck Waycar"
+
 model = "immersiverailroading:models/rolling_stock/kitsune_waycar/kitsune_waycar.obj"
+
 extra_tooltip_info: Code: MFMtG
+
 properties =
     weight_kg = 1250
     interior_light_level = 0
     independent_brake = True
     brake_friction_coefficient = 0.7
+
+animations:
+    readout = "rear_bogey_angle"
+    animatrix = "immersiverailroading:models/rolling_stock/kitsune_waycar/waycar_knuckle_rear.anim"
+    mode = "value"
+
 passenger =
     slots = 1
     center_x = 0
@@ -14,13 +24,16 @@ passenger =
     length = 1.0
     width = 0.5
     should_sit = False
+
 freight =
     slots = 3
     width = 3
     cargo: Any
     show_current_load_only = False
+
 pivot =
     front = 0.53125
     rear = -0.53125
+
 couplers =
     rear_offset = -0.1875
