@@ -24,6 +24,7 @@
 		"kitsune_zf4m"
 	],
 	"locomotives": [
+		"kitsune_sapphire_express_local",
 		"kitsune_stormpeak_locomotive",
 		"kitsune_stormpeak_cablecar",
 		"kitsune_stormpeak_electra_locomotive",

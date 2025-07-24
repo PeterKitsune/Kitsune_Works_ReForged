@@ -1,0 +1,29 @@
+import : "immersiverailroading:rolling_stock/_kitsune_default/sapphire.caml"
+
+name = Arborea 'Sapphire Express' Local
+
+model = "immersiverailroading:models/rolling_stock/kitsune_sapphire_express/sapphire_local.obj"
+
+animations:
+    readout = "rear_bogey_angle"
+    animatrix = "immersiverailroading:models/rolling_stock/kitsune_sapphire_express/sapphire_local_couple_rear.anim"
+    mode = "value"
+
+animations:
+    readout = "front_bogey_angle"
+    animatrix = "immersiverailroading:models/rolling_stock/kitsune_sapphire_express/sapphire_local_couple_front.anim"
+    mode = "value"
+
+animations:
+    readout = "rear_bogey_angle"
+    animatrix = "immersiverailroading:models/rolling_stock/kitsune_sapphire_express/sapphire_local_bogie_rear.anim"
+    mode = "value"
+
+animations:
+    readout = "front_bogey_angle"
+    animatrix = "immersiverailroading:models/rolling_stock/kitsune_sapphire_express/sapphire_local_bogie_front.anim"
+    mode = "value"
+
+properties =
+	valve_gear =
+		0.0 = "immersiverailroading:models/rolling_stock/kitsune_sapphire_express/sapphire_local_drive.anim"
