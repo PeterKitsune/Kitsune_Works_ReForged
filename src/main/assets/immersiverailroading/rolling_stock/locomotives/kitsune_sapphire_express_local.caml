@@ -30,4 +30,4 @@ animations:
     readout = "speed"
     animatrix = "immersiverailroading:models/rolling_stock/kitsune_sapphire_express/sapphire_local_drive.anim"
     mode = "loop_speed"
-    frames_per_tick = 382
+    frames_per_tick = 191
