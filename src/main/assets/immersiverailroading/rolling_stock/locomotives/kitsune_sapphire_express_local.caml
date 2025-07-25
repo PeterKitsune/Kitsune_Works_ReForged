@@ -1,5 +1,7 @@
 import : "immersiverailroading:rolling_stock/_kitsune_default/sapphire.caml"
 
+era = diesel
+
 name = "Arborea 'Sapphire Express' Local"
 
 model = "immersiverailroading:models/rolling_stock/kitsune_sapphire_express/sapphire_local.obj"

@@ -1,7 +1,5 @@
 import : "immersiverailroading:rolling_stock/_kitsune_default/2ft.caml"
 
-era = diesel
-
 extra_tooltip_info : If using IR Patches, use diesel, biodiesel, or lava as a fuel
 
 properties =
