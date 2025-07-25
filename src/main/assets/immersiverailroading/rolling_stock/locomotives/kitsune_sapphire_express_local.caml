@@ -28,4 +28,5 @@ animations:
 
 properties =
 	valve_gear =
-		0.0 = "immersiverailroading:models/rolling_stock/kitsune_sapphire_express/sapphire_local_drive.anim"
+        animatrix =
+            0.0 = "immersiverailroading:models/rolling_stock/kitsune_sapphire_express/sapphire_local_drive.anim"
