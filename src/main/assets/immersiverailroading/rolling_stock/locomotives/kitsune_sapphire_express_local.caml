@@ -26,7 +26,8 @@ animations:
     animatrix = "immersiverailroading:models/rolling_stock/kitsune_sapphire_express/sapphire_local_bogie_front.anim"
     mode = "value"
 
-properties =
-	valve_gear =
-        animatrix =
-            0.0 = "immersiverailroading:models/rolling_stock/kitsune_sapphire_express/sapphire_local_drive.anim"
+animations:
+    readout = "speed"
+    animatrix = "immersiverailroading:models/rolling_stock/kitsune_sapphire_express/sapphire_local_drive.anim"
+    mode = "loop_speed"
+    frames_per_tick = 1.1
