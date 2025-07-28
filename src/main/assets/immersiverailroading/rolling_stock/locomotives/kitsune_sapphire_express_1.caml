@@ -2,14 +2,15 @@ import : "immersiverailroading:rolling_stock/_kitsune_default/sapphire.caml"
 
 era = diesel
 
-name = "Arborea 'Sapphire Express' Local"
+name = "Arborea 'Sapphire Express' Coach 1 Second Class"
 
-model = "immersiverailroading:models/rolling_stock/kitsune_sapphire_express/sapphire_local.obj"
+model = "immersiverailroading:models/rolling_stock/kitsune_sapphire_express/sapphire_express_1.obj"
 
-animations:
-    readout = "rear_bogey_angle"
-    animatrix = "immersiverailroading:models/rolling_stock/kitsune_sapphire_express/sapphire_couple_rear.anim"
-    mode = "value"
+pivot =
+    rear = -5.125
+
+couplers =
+    rear = -1
 
 animations:
     readout = "front_bogey_angle"
@@ -18,13 +19,13 @@ animations:
 
 animations:
     readout = "engine_rpm"
-    animatrix = "immersiverailroading:models/rolling_stock/kitsune_sapphire_express/sapphire_drive_cab_rear.anim"
+    animatrix = "immersiverailroading:models/rolling_stock/kitsune_sapphire_express/sapphire_drive_jacob_rear.anim"
     mode = "loop_speed"
     frames_per_tick = 0.9
 
 animations:
     readout = "speed"
-    animatrix = "immersiverailroading:models/rolling_stock/kitsune_sapphire_express/sapphire_drive_cab_rear.anim"
+    animatrix = "immersiverailroading:models/rolling_stock/kitsune_sapphire_express/sapphire_drive_jacob_rear.anim"
     mode = "loop_speed"
     frames_per_tick = 0.9
 

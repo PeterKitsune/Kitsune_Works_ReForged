@@ -29,4 +29,4 @@ couplers =
 	front_offset = -0.171875
 
 sounds =
-	horn = "immersiverailroading:sounds/kitsune_reforged/vulcan_horn.ogg"
+	horn = "immersiverailroading:sounds/kitsune_reforged/silent.ogg"
