@@ -1,0 +1,32 @@
+import : "immersiverailroading:rolling_stock/_kitsune_default/2ft.caml"
+
+extra_tooltip_info : If using IR Patches, use diesel, biodiesel, or lava as a fuel
+
+properties =
+	weight_kg = 15000
+	fuel: "diesel"
+	fuel: "biodiesel"
+	fuel: "lava:100"
+	fuel_efficiency_% = 400
+	fuel_capacity_l = 2000
+	horsepower = 150
+	tractive_effort_lbf = 3621
+	max_speed_kmh = 75
+
+passenger =
+	center_x = 0
+	center_y = 0.9625
+	length = 3.8125
+	width = 1.0
+	slots = 14
+
+pivot =
+	front = 2.9375
+	rear = -2.9375
+
+couplers =
+	rear_offset = -0.171875
+	front_offset = -0.171875
+
+sounds =
+	horn = "immersiverailroading:sounds/kitsune_reforged/silent.ogg"

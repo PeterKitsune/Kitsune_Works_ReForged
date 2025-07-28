@@ -1,0 +1,39 @@
+import : "immersiverailroading:rolling_stock/_kitsune_default/sapphire.caml"
+
+era = diesel
+
+name = "Arborea 'Sapphire Express' Coach 2 Second Class"
+
+model = "immersiverailroading:models/rolling_stock/kitsune_sapphire_express/sapphire_express_2.obj"
+
+pivot =
+    front = 5.125
+    rear = -5.125
+
+couplers =
+    front_offset = -1
+    rear_offset = -1
+
+animations:
+    readout = "engine_rpm"
+    animatrix = "immersiverailroading:models/rolling_stock/kitsune_sapphire_express/sapphire_drive_jacob_rear.anim"
+    mode = "loop_speed"
+    frames_per_tick = 0.9
+
+animations:
+    readout = "speed"
+    animatrix = "immersiverailroading:models/rolling_stock/kitsune_sapphire_express/sapphire_drive_jacob_rear.anim"
+    mode = "loop_speed"
+    frames_per_tick = 0.9
+
+animations:
+    control_group = "doorright"
+    animatrix = "immersiverailroading:models/rolling_stock/kitsune_sapphire_express/sapphire_door_right.anim"
+    mode = "play_both"
+    frames_per_tick = 2
+
+animations:
+    control_group = "doorleft"
+    animatrix = "immersiverailroading:models/rolling_stock/kitsune_sapphire_express/sapphire_door_left.anim"
+    mode = "play_both"
+    frames_per_tick = 2
