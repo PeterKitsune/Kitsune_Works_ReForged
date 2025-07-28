@@ -10,7 +10,7 @@ pivot =
     rear = -5.125
 
 couplers =
-    rear = -1
+    rear_offset = -1
 
 animations:
     readout = "front_bogey_angle"

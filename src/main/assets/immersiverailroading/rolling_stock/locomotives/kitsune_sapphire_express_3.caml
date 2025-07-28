@@ -11,8 +11,8 @@ pivot =
     rear = -5.125
 
 couplers =
-    front = -1
-    rear = -1
+    front_offset = -1
+    rear_offset = -1
 
 passenger =
     slots = 5
