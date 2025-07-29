@@ -7,10 +7,10 @@ properties =
 	fuel: "diesel"
 	fuel: "biodiesel"
 	fuel: "lava:100"
-	fuel_efficiency_% = 400
+	fuel_efficiency_% = 69
 	fuel_capacity_l = 8000
-	horsepower = 150
-	tractive_effort_lbf = 3621
+	horsepower = 200
+	tractive_effort_lbf = 4000
 	max_speed_kmh = 75
 
 passenger =
