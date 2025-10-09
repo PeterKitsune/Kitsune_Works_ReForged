@@ -1,0 +1,42 @@
+import : "immersiverailroading:rolling_stock/_kitsune_default/2ft.caml"
+
+era = diesel
+
+model = "immersiverailroading:models/rolling_stock/kitsune_arborea_tram/arb_tram.obj"
+
+extra_tooltip_info : If using IR Patches, use ethanol, lava, or water as a fuel
+extra_tooltip_info : Note that water is horrendously inefficient when used as such
+
+name = "Arborea Tram"
+
+properties = 
+    weight_kg = 250
+    fuel: "ethanol: 100"
+    fuel: "lava: 100"
+    fuel: "water: 10"
+	fuel_efficiency_% = 69
+	fuel_capacity_l = 1000
+	horsepower = 100
+	tractive_effort_lbf = 4000
+    max_speed_kmh = 25
+
+passenger = 
+    center_x = 0
+    center_y = 0.9
+    length = 2
+    width = 1
+    slots = 6
+
+
+sounds =
+	horn = "immersiverailroading:sounds/kitsune_reforged/stormpeak_bell.ogg"
+    idle = "immersiverailroading:sounds/kitsune_reforged/motor.ogg"
+
+couplers = 
+    front_offset = 1
+    rear_offset = 1
+
+animations:
+	control_group = "blind"
+	animatrix = "immersiverailroading:models/rolling_stock/kitsune_arborea_tram/arb_tram_destination_blind.anim"
+	mode = value
