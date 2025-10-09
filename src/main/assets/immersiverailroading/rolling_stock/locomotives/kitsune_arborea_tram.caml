@@ -15,9 +15,9 @@ couplers =
 
 properties = 
 	weight_kg = 250
-	fuel: "ethanol: 100"
-	fuel: "lava: 100"
-	fuel: "water: 10"
+	fuel: "ethanol:100"
+	fuel: "lava:100"
+	fuel: "water:10"
 	fuel_efficiency_% = 69
 	fuel_capacity_l = 1000
 	horsepower = 100
