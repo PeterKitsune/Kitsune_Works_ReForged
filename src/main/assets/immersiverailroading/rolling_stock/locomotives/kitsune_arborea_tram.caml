@@ -15,14 +15,16 @@ couplers =
 
 properties = 
 	weight_kg = 250
-	fuel: "ethanol:100"
-	fuel: "lava:100"
-	fuel: "water:10"
+	fuel: "ethanol:50"
+	fuel: "lava:50"
+	fuel: "water:1"
 	fuel_efficiency_% = 69
 	fuel_capacity_l = 1000
-	horsepower = 100
+	horsepower = 10
+	brake_friction_coefficient = 0.3
 	tractive_effort_lbf = 4000
-	max_speed_kmh = 25
+	max_speed_kmh = 16
+	throttle_notches = 1
 
 passenger = 
 	center_x = 0

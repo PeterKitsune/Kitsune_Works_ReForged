@@ -2,7 +2,7 @@ import : "immersiverailroading:rolling_stock/_kitsune_default/sapphire.caml"
 
 era = diesel
 
-name = "Arborea 'Sapphire Express' loco-hauled observation coach"
+name = "Arborea 'Sapphire Express' loco-hauled Push-Pull coach"
 
 model = "immersiverailroading:models/rolling_stock/kitsune_sapphire_express/sapphire_express_coach_pushpull.obj"
 
