@@ -11,6 +11,26 @@ illum 1
 map_Kd base.png
 map_d base.png
 
+newmtl Cab_Base
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 2
+map_Kd cab_base.png
+map_d cab_base.png
+
+newmtl Cab_Colour
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 2
+map_Kd cab_colour.png
+map_d cab_colour.png
+
 newmtl Colour
 Ns 1000.000000
 Ka 1.000000 1.000000 1.000000
@@ -30,16 +50,6 @@ Ni 1.450000
 illum 2
 map_Kd coupler.png
 map_d coupler.png
-
-newmtl Handle
-Ns 1000.000000
-Ka 1.000000 1.000000 1.000000
-Ks 0.000000 0.000000 0.000000
-Ke 0.000000 0.000000 0.000000
-Ni 1.450000
-illum 1
-map_Kd handle.png
-map_d handle.png
 
 newmtl Secondary
 Ns 250.000000
