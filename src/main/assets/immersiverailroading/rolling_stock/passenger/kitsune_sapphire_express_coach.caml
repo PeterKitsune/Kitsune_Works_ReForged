@@ -1,0 +1,30 @@
+import : "immersiverailroading:rolling_stock/_kitsune_default/sapphire.caml"
+
+name = "Arborea 'Sapphire Express' loco-hauled middle coach"
+
+extra_tooltip_info : "Note: don't put at the end of a passenger train due to lack of gangway doors."
+extra_tooltip_info : "Use the observation coach or the push-pull coach to provide a safe end of train for passengers."
+
+model = "immersiverailroading:models/rolling_stock/kitsune_sapphire_express/sapphire_express_coach.obj"
+
+animations:
+    readout = "rear_bogey_angle"
+    animatrix = "immersiverailroading:models/rolling_stock/kitsune_sapphire_express/sapphire_couple_rear.anim"
+    mode = "value"
+
+animations:
+    readout = "front_bogey_angle"
+    animatrix = "immersiverailroading:models/rolling_stock/kitsune_sapphire_express/sapphire_couple_front.anim"
+    mode = "value"
+
+animations:
+    control_group = "doorright"
+    animatrix = "immersiverailroading:models/rolling_stock/kitsune_sapphire_express/sapphire_door_right.anim"
+    mode = "play_both"
+    frames_per_tick = 2
+
+animations:
+    control_group = "doorleft"
+    animatrix = "immersiverailroading:models/rolling_stock/kitsune_sapphire_express/sapphire_door_left.anim"
+    mode = "play_both"
+    frames_per_tick = 2

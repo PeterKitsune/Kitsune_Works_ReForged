@@ -24,9 +24,5 @@ pivot =
 	front = 2.9375
 	rear = -2.9375
 
-couplers =
-	rear_offset = -0.171875
-	front_offset = -0.171875
-
 sounds =
 	horn = "immersiverailroading:sounds/kitsune_reforged/silent.ogg"

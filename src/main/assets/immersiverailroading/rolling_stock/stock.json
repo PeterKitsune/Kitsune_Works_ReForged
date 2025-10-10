@@ -24,12 +24,14 @@
 		"kitsune_zf4m"
 	],
 	"locomotives": [
+		"kitsune_arborea_tram",
 		"kitsune_sapphire_express_local",
 		"kitsune_sapphire_express_1",
 		"kitsune_sapphire_express_2",
 		"kitsune_sapphire_express_3",
 		"kitsune_sapphire_express_4",
 		"kitsune_sapphire_express_5",
+		"kitsune_sapphire_express_coach_pushpull",
 		"kitsune_stormpeak_locomotive",
 		"kitsune_stormpeak_cablecar",
 		"kitsune_stormpeak_electra_locomotive",
@@ -73,6 +75,9 @@
 		"kitsune_onyx_mrc121h"
 	],
 	"passenger": [
+		"kitsune_sapphire_express_coach_local",
+		"kitsune_sapphire_express_coach",
+		"kitsune_sapphire_express_coach_obs",
 		"kitsune_stormpeak_coach",
 		"kitsune_dragon_coach",
 		"kitsune_dragon_combine",

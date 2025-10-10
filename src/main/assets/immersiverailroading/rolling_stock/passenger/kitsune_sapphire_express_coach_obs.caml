@@ -1,0 +1,30 @@
+import : "immersiverailroading:rolling_stock/_kitsune_default/sapphire.caml"
+
+name = "Arborea 'Sapphire Express' loco-hauled observation coach"
+
+model = "immersiverailroading:models/rolling_stock/kitsune_sapphire_express/sapphire_express_coach_obs.obj"
+
+animations:
+    readout = "rear_bogey_angle"
+    animatrix = "immersiverailroading:models/rolling_stock/kitsune_sapphire_express/sapphire_couple_rear.anim"
+    mode = "value"
+
+animations:
+    readout = "front_bogey_angle"
+    animatrix = "immersiverailroading:models/rolling_stock/kitsune_sapphire_express/sapphire_couple_front.anim"
+    mode = "value"
+
+animations:
+    control_group = "doorright"
+    animatrix = "immersiverailroading:models/rolling_stock/kitsune_sapphire_express/sapphire_door_right.anim"
+    mode = "play_both"
+    frames_per_tick = 2
+
+animations:
+    control_group = "doorleft"
+    animatrix = "immersiverailroading:models/rolling_stock/kitsune_sapphire_express/sapphire_door_left.anim"
+    mode = "play_both"
+    frames_per_tick = 2
+
+couplers =
+	rear_offset = -0.171875
