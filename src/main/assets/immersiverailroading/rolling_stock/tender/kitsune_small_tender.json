@@ -21,7 +21,7 @@
 		"should_sit": false
 	},
 	"tank": {
-		"capacity_l":  12000
+		"capacity_l":  6000
 	},
 	"tender": {
 		"slots": 18,
