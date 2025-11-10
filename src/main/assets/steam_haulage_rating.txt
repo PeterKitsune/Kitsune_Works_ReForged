@@ -1,0 +1,10 @@
+Haulage ratings for steamers (roughly 300 metre run-up, 90 metre 1:20 rising grade)
+
+Stormpeak -  10T
+Wyvern    - 100T
+Dragon    - 150T
+Oread     -  50T
+Meliad    -  50T
+Dryad     -  50T
+Naiad     -  50T
+Pixie     -   5T
