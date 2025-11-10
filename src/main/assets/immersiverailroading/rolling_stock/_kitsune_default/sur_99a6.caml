@@ -4,7 +4,7 @@ works = "Various (Design: Syldel Union of Railways)"
 
 properties =
     weight_kg = 2000
-    interior_light_level = 0.25
+    interior_light_level = 0.75
     independent_brake = True
     brake_friction_coefficient = 0.7
 
