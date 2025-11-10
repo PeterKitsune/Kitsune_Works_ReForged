@@ -28,3 +28,6 @@ sounds =
 	horn = "immersiverailroading:sounds/kitsune_reforged/subway_whistle.ogg"
 	bell = "immersiverailroading:sounds/kitsune_reforged/silent.ogg"
 	idle = "immersiverailroading:sounds/kitsune_reforged/motor.ogg"
+
+couplers =
+	front_offset = -0.109375

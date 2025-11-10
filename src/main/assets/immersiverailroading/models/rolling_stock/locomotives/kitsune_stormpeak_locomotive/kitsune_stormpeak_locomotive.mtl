@@ -1,14 +1,12 @@
-# Blender MTL File: 'kitsune_stormpeak_locomotive.blend'
-# Material Count: 6
+# Blender 3.6.5 MTL File: 'kitsune_stormpeak_locomotive.blend'
+# www.blender.org
 
 newmtl Base
 Ns 1000.000000
 Ka 1.000000 1.000000 1.000000
-Kd 0.800000 0.800000 0.800000
 Ks 0.000000 0.000000 0.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
-d 1.000000
 illum 1
 map_Kd base.png
 map_d base.png
@@ -16,11 +14,9 @@ map_d base.png
 newmtl Boiler
 Ns 0.000000
 Ka 1.000000 1.000000 1.000000
-Kd 0.800000 0.800000 0.800000
 Ks 0.000000 0.000000 0.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
-d 1.000000
 illum 1
 map_Kd boiler.png
 map_d boiler.png
@@ -28,11 +24,9 @@ map_d boiler.png
 newmtl Colour
 Ns 1000.000000
 Ka 1.000000 1.000000 1.000000
-Kd 0.800000 0.800000 0.800000
 Ks 0.000000 0.000000 0.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
-d 1.000000
 illum 1
 map_Kd colour.png
 map_d colour.png
@@ -40,7 +34,6 @@ map_d colour.png
 newmtl Coupler
 Ns 250.000000
 Ka 1.000000 1.000000 1.000000
-Kd 0.800000 0.800000 0.800000
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
@@ -51,11 +44,9 @@ map_Kd coupler.png
 newmtl Log
 Ns 1000.000000
 Ka 1.000000 1.000000 1.000000
-Kd 0.800000 0.800000 0.800000
 Ks 0.000000 0.000000 0.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
-d 1.000000
 illum 1
 map_Kd log.png
 map_d log.png
@@ -63,7 +54,6 @@ map_d log.png
 newmtl Wheel
 Ns 1000.000000
 Ka 1.000000 1.000000 1.000000
-Kd 0.800000 0.800000 0.800000
 Ks 0.000000 0.000000 0.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000

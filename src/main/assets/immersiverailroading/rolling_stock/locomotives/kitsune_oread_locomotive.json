@@ -9,9 +9,9 @@
 	"extra_tooltip_info":["Like the Nymph Naiad, but for export","Code: MLS6-ET"],
 	"properties": {
 		"max_psi": 175,
-		"water_capacity_l": 6000,
-		"horsepower": 600,
-		"tractive_effort_lbf": 9000,
+		"water_capacity_l": 2000,
+		"horsepower": 421,
+		"tractive_effort_lbf": 6360,
 		"max_speed_kmh": 40,
 		"valve_gear": "stephenson",
 		"weight_kg": 10000,
@@ -28,7 +28,7 @@
 		"center_x": -2.1875,
 		"center_y": 0.9375,
 		"length": 0.75,
-		"width": 1.0,
+		"width": 1.5,
 		"should_sit": false
 	},
 	"pivot": {

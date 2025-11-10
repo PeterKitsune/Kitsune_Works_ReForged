@@ -4,6 +4,7 @@ works = "Various (Design: Syldel Union of Railways)"
 
 properties =
 	weight_kg = 10000
+	interior_light_level = 0.25
 
 passenger =
 	center_x = 0

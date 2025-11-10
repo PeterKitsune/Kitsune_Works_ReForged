@@ -6,12 +6,12 @@
 	"model": "immersiverailroading:models/rolling_stock/locomotives/kitsune_nymph_locomotive/kitsune_nymph_dryad_locomotive.obj",
 	"darken_model": "-0.05",
 	"model_gauge_m": 0.632,
-	"extra_tooltip_info":["Like the Nymph Naiad, but as a tank engine","Code: MLS6"],
+	"extra_tooltip_info":["KW Class: MLS3/3"],
 	"properties": {
 		"max_psi": 175,
-		"water_capacity_l": 6000,
-		"horsepower": 400,
-		"tractive_effort_lbf": 7500,
+		"water_capacity_l": 10000,
+		"horsepower": 337,
+		"tractive_effort_lbf": 6360,
 		"max_speed_kmh": 32,
 		"valve_gear": "stephenson",
 		"weight_kg": 10000,
@@ -28,7 +28,7 @@
 		"center_x": -2.1875,
 		"center_y": 0.9375,
 		"length": 0.75,
-		"width": 1.0,
+		"width": 1.5,
 		"should_sit": false
 	},
 	"pivot": {
