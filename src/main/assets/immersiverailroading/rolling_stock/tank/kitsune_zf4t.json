@@ -25,7 +25,7 @@
 		"width": 0
 	},
 	"tank": {
-		"capacity_l": 4000
+		"capacity_l": 3000
 	},
 	"pivot": {
 		"front": 0.5,
