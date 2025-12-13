@@ -1,0 +1,16 @@
+import : "immersiverailroading:rolling_stock/_kitsune_default/sur_99a6.caml"
+
+name = "Syldel Union of Railways '99a6 stock' Tank Wagon"
+
+works = "Various (Design: Syldel Union of Railways)"
+
+model = "immersiverailroading:models/rolling_stock/kitsune_sur_99a6_wagons/tank.obj"
+
+properties =
+	interior_light_level = 0.75
+
+passenger =
+	slots = 0
+
+tank =
+	capacity_l = 7500
