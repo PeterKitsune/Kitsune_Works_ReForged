@@ -10,7 +10,7 @@ era = diesel
 
 name = "Syldel Union of Railways 'D2A'"
 
-model = "immersiverailroading:models/rolling_stock/kitsune_sapphire_express/sapphire_express_1.obj"
+model = "immersiverailroading:models/rolling_stock/locomotives/kitsune_sur_d2/sur_d2a.obj"
 
 properties =
 	weight_kg = 69000
