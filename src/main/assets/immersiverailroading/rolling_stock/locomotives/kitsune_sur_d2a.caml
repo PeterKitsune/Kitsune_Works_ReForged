@@ -19,7 +19,7 @@ properties =
 	fuel: "lava:100"
 	fuel_efficiency_% = 69
 	fuel_capacity_l = 8000
-	horsepower = 500
+	horsepower = 1000
 	tractive_effort_lbf = 25000
 	max_speed_kmh = 125
 
@@ -36,7 +36,7 @@ pivot =
 	rear = -1.375
 
 couplers =
-    rear_offset = -1
+	front_offset = -0.171875
 
 animations:
     readout = "front_bogey_angle"
