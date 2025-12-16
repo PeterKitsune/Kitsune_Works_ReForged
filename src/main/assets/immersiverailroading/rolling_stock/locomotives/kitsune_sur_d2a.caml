@@ -1,0 +1,70 @@
+import : "immersiverailroading:rolling_stock/_kitsune_default/2ft.caml"
+
+works = "Various (Design: Syldel Union of Railways)"
+
+extra_tooltip_info : If using IR Patches, use diesel, biodiesel, or lava as a fuel
+extra_tooltip_info : "Code: SUR_D2A"
+extra_tooltip_info : Couple two of these back-to-back with optional SUR_D2B between them
+
+era = diesel
+
+name = "Syldel Union of Railways 'D2A'"
+
+model = "immersiverailroading:models/rolling_stock/kitsune_sapphire_express/sapphire_express_1.obj"
+
+properties =
+	weight_kg = 69000
+	fuel: "diesel"
+	fuel: "biodiesel"
+	fuel: "lava:100"
+	fuel_efficiency_% = 69
+	fuel_capacity_l = 8000
+	horsepower = 500
+	tractive_effort_lbf = 25000
+	max_speed_kmh = 125
+
+
+passenger =
+	center_x = 3.8125
+	center_y = 0.9
+	length = 0.125
+	width = 0.625
+	slots = 1
+
+pivot =
+	front = 1.375
+	rear = -1.375
+
+couplers =
+    rear_offset = -1
+
+animations:
+    readout = "front_bogey_angle"
+    animatrix = "immersiverailroading:models/rolling_stock/locomotives/kitsune_sur_d2/front_couple.anim"
+    mode = "value"
+
+animations:
+    readout = "rear_bogey_angle"
+    animatrix = "immersiverailroading:models/rolling_stock/locomotives/kitsune_sur_d2/rear_couple.anim"
+    mode = "value"
+
+animations:
+    readout = "engine"
+    animatrix = "immersiverailroading:models/rolling_stock/locomotives/kitsune_sur_d2/fan.anim"
+    mode = "loop"
+    frames_per_tick = 6
+
+animations:
+    control_group = "driverdoorfrontleft"
+    animatrix = "immersiverailroading:models/rolling_stock/locomotives/kitsune_sur_d2/door_front_left.anim"
+    mode = "play_both"
+    frames_per_tick = 6
+
+animations:
+    control_group = "driverdoorfrontright"
+    animatrix = "immersiverailroading:models/rolling_stock/locomotives/kitsune_sur_d2/door_front_right.anim"
+    mode = "play_both"
+    frames_per_tick = 6
+
+sounds =
+	horn = "immersiverailroading:sounds/kitsune_reforged/vulcan_horn.ogg"

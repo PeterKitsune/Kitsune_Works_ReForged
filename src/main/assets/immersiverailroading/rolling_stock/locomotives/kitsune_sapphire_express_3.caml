@@ -4,6 +4,8 @@ era = diesel
 
 name = "Arborea 'Sapphire Express' Coach 3 Kitchen"
 
+extra_tooltip_info : If using IR Patches, use diesel, biodiesel, or lava as a fuel
+
 model = "immersiverailroading:models/rolling_stock/kitsune_sapphire_express/sapphire_express_3.obj"
 
 pivot =
