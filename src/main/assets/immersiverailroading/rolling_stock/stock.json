@@ -1,6 +1,7 @@
 {
 	"pack": "Kitsune Works ReForged",
 	"freight": [
+		"kitsune_buffer",
 		"kitsune_stormpeak_flat_wagon",
 		"kitsune_stormpeak_van",
 		"kitsune_stormpeak_brake",
