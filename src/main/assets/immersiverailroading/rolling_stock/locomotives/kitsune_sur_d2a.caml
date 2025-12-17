@@ -13,6 +13,7 @@ name = "Syldel Union of Railways 'D2A'"
 model = "immersiverailroading:models/rolling_stock/locomotives/kitsune_sur_d2/sur_d2a.obj"
 
 properties =
+	interior_light_level = 0.75
 	weight_kg = 69000
 	fuel: "diesel"
 	fuel: "biodiesel"
