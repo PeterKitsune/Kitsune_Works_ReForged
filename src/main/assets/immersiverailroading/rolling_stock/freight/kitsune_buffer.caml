@@ -4,7 +4,7 @@ name = "Kitsune 2 ft gauge buffer"
 
 works = "I sure hope it does"
 
-model = ""
+model = "immersiverailroading:models/rolling_stock/_kitsune_buffer/buffer.obj"
 
 properties =
 	weight_kg = 100000
