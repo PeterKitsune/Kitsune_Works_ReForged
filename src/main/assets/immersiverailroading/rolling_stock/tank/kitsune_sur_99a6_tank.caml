@@ -7,7 +7,7 @@ works = "Various (Design: Syldel Union of Railways)"
 model = "immersiverailroading:models/rolling_stock/kitsune_sur_99a6_wagons/tank.obj"
 
 properties =
-	interior_light_level = 0.75
+	interior_light_level = 0
 
 passenger =
 	slots = 0

@@ -1,6 +1,7 @@
 {
 	"pack": "Kitsune Works ReForged",
 	"freight": [
+		"kitsune_buffer",
 		"kitsune_stormpeak_flat_wagon",
 		"kitsune_stormpeak_van",
 		"kitsune_stormpeak_brake",
@@ -8,6 +9,7 @@
 		"kitsune_dragon_van",
 		"kitsune_sur_99a6_van_general",
 		"kitsune_sur_99a6_open_general",
+		"kitsune_sur_99a6_caboose",
 		"kitsune_elysia_mk2_javelin_trailer_baggage",
 		"kitsune_elysia_mk2_javelin_goods",
 		"kitsune_mk2_subway_trailer_baggage",
@@ -60,6 +62,7 @@
 		"kitsune_mk2_subway_rear",
 		"kitsune_mk2_coach_pushpull",
 		"kitsune_mk2_coach_express_pushpull",
+		"kitsune_sur_d2a",
 		"kitsune_vulcan_express_locomotive",
 		"kitsune_vulcan_b_express_locomotive",
 		"kitsune_prometheus_freight_locomotive",
