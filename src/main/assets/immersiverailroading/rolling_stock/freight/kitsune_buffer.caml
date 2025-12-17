@@ -7,13 +7,13 @@ works = "I sure hope it does"
 model = "immersiverailroading:models/rolling_stock/_kitsune_buffer/buffer.obj"
 
 properties =
-	weight_kg = 100000
+	weight_kg = 1000000
 	interior_light_level = 0
 	independent_brake = True
-	brake_friction_coefficient = 5
+	brake_friction_coefficient = 20
 
 passenger =
-	slots = 0
+	slots = 1
 	center_x = 0
 	center_y = 0
 	length = 0
