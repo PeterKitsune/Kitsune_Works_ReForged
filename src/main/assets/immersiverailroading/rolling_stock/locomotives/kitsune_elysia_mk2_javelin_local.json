@@ -42,6 +42,7 @@
 	"sounds": {
 		"horn": "sounds/kitsune_reforged/vulcan_horn.ogg",
 		"bell": "sounds/kitsune_reforged/silent.ogg",
+		"idle": "sounds/kitsune_reforged/diesel_idle.ogg",
 		"controls": {
 			"THROTTLE_BRAKE_1": {
 				"engage": "immersiverailroading:sounds/default/lever_engage.ogg",

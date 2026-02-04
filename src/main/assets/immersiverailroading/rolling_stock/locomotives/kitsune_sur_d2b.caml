@@ -3,17 +3,17 @@ import : "immersiverailroading:rolling_stock/_kitsune_default/2ft.caml"
 works = "Various (Design: Syldel Union of Railways)"
 
 extra_tooltip_info : If using IR Patches, use diesel, biodiesel, or lava as a fuel
-extra_tooltip_info : "Code: SUR_D2A"
-extra_tooltip_info : Couple two of these back-to-back with optional SUR_D2B between them
+extra_tooltip_info : "Code: SUR_D2B"
+extra_tooltip_info : Couple one of these between a pair of SUR_D2A
 
 era = diesel
 
-name = "Syldel Union of Railways 'D2A'"
+name = "Syldel Union of Railways 'D2B'"
 
-model = "immersiverailroading:models/rolling_stock/locomotives/kitsune_sur_d2/sur_d2a.obj"
+model = "immersiverailroading:models/rolling_stock/locomotives/kitsune_sur_d2/sur_d2b.obj"
 
 properties =
-	interior_light_level = 0.75
+	interior_light_level = 0
 	weight_kg = 69000
 	fuel: "diesel"
 	fuel: "biodiesel"
@@ -30,14 +30,11 @@ passenger =
 	center_y = 0.9
 	length = 0.125
 	width = 0.625
-	slots = 1
+	slots = 0
 
 pivot =
 	front = 1.375
 	rear = -1.375
-
-couplers =
-	front_offset = -0.171875
 
 animations:
     readout = "front_bogey_angle"
@@ -55,19 +52,7 @@ animations:
     mode = "loop"
     frames_per_tick = 6
 
-animations:
-    control_group = "driverdoorfrontleft"
-    animatrix = "immersiverailroading:models/rolling_stock/locomotives/kitsune_sur_d2/door_front_left.anim"
-    mode = "play_both"
-    frames_per_tick = 6
-
-animations:
-    control_group = "driverdoorfrontright"
-    animatrix = "immersiverailroading:models/rolling_stock/locomotives/kitsune_sur_d2/door_front_right.anim"
-    mode = "play_both"
-    frames_per_tick = 6
-
 sounds =
-	horn = "immersiverailroading:sounds/kitsune_reforged/vulcan_horn.ogg"
+	horn = "immersiverailroading:sounds/kitsune_reforged/silent.ogg"
 	idle = "immersiverailroading:sounds/diesel/c44_9w/idle.ogg"
 	running = "immersiverailroading:sounds/diesel/c44_9w/notch6.ogg"
