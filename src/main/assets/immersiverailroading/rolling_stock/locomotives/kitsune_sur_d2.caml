@@ -3,14 +3,13 @@ import : "immersiverailroading:rolling_stock/_kitsune_default/2ft.caml"
 works = "Various (Design: Syldel Union of Railways)"
 
 extra_tooltip_info : If using IR Patches, use diesel, biodiesel, or lava as a fuel
-extra_tooltip_info : "Code: SUR_D2A"
-extra_tooltip_info : Couple two of these back-to-back with optional SUR_D2B between them
+extra_tooltip_info : "Code: SUR_D2"
 
 era = diesel
 
-name = "Syldel Union of Railways 'D2A'"
+name = "Syldel Union of Railways 'D2'"
 
-model = "immersiverailroading:models/rolling_stock/locomotives/kitsune_sur_d2/sur_d2a.obj"
+model = "immersiverailroading:models/rolling_stock/locomotives/kitsune_sur_d2/sur_d2.obj"
 
 properties =
 	interior_light_level = 0.75
@@ -38,6 +37,7 @@ pivot =
 
 couplers =
 	front_offset = -0.171875
+	rear_offset = -0.171875
 
 animations:
     readout = "front_bogey_angle"
@@ -64,6 +64,18 @@ animations:
 animations:
     control_group = "driverdoorfrontright"
     animatrix = "immersiverailroading:models/rolling_stock/locomotives/kitsune_sur_d2/door_front_right.anim"
+    mode = "play_both"
+    frames_per_tick = 6
+
+animations:
+    control_group = "driverdoorrearleft"
+    animatrix = "immersiverailroading:models/rolling_stock/locomotives/kitsune_sur_d2/door_rear_left.anim"
+    mode = "play_both"
+    frames_per_tick = 6
+
+animations:
+    control_group = "driverdoorrearright"
+    animatrix = "immersiverailroading:models/rolling_stock/locomotives/kitsune_sur_d2/door_rear_right.anim"
     mode = "play_both"
     frames_per_tick = 6
 

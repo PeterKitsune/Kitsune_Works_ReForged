@@ -33,5 +33,7 @@ couplers =
 	rear_offset  = -0.171875
 
 sounds =
-    horn = "sounds/kitsune_reforged/silent.ogg"
-    bell = "sounds/kitsune_reforged/silent.ogg"
+	horn = "sounds/kitsune_reforged/silent.ogg"
+	bell = "sounds/kitsune_reforged/silent.ogg"
+	idle = "immersiverailroading:sounds/diesel/c44_9w/idle.ogg"
+	running = "immersiverailroading:sounds/diesel/c44_9w/notch6.ogg"
