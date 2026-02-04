@@ -25,11 +25,11 @@ properties =
 
 
 passenger =
-	center_x = 3.8125
+	center_x = 0
 	center_y = 0.9
-	length = 0.125
+	length = 3.9375
 	width = 0.625
-	slots = 1
+	slots = 2
 
 pivot =
 	front = 1.375
